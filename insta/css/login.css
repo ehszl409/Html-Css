@@ -1,0 +1,41 @@
+.login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+    width: 60%;
+    
+}
+.login__box{
+    width: 350px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 300;
+
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.login__form input{
+    width: 270px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color:  #FAFAFA;
+    font-size: 13px;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+.login__app{
+    display: flex;
+    justify-content: center;
+}
+.login__app img{
+    width: 140px;
+    height: 40px;
+    margin-left: 10px;
+}
+.login__main__text{
+    font-size: 14px;
+}

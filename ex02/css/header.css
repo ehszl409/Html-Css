@@ -1,0 +1,35 @@
+.shex{
+    display: flex;
+    border: 1px solid red;
+    height: 130px;
+}
+
+.shex .shex__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 130px;
+    
+
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    
+}
+
+
+
+.shex .shex__text{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+
+    width: 80%;
+
+    font-size: 25px;
+    color: gray;
+
+    padding-left: 20px;
+}
+

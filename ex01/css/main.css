@@ -1,0 +1,128 @@
+main{
+    
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height:700px ;
+}
+.first{
+    position: relative;
+    width: 1610px;
+    height: 300px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;   
+    overflow: hidden; 
+}
+.first__img__box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.first__item{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    right: 2%;
+    top: 2%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    
+    
+}
+.first__img{
+    position: relative;
+    top: -250px;
+    width: 1610px;
+    height: 800px;
+    
+    
+}
+.first__absolute{
+    position: absolute;
+    height: 15%;
+    border-radius: 20px;
+    width: 80%;
+    left: 10%;
+    top: 45%;
+    
+    background-color: white;
+    box-shadow: 0px 3px 3px 0px gray;
+}
+.absolute__icons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.icons__item{
+    display: flex;
+    
+    height: 80%;
+}
+.item__score{
+    padding-top: 5px;
+}
+.absolute__title{
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.absolute__subtitle{
+    color: grey;
+    
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* 두 번째 섹션 */
+.recommended{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+   
+}
+.recommended__text{
+    color: grey;
+    
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.recommended__image{
+    width: 1600px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.image__box{
+    position: relative;
+    width: 23%;
+    height: 200px;
+    
+}
+.box__image{
+    overflow: hidden;
+    border-radius: 30px;
+    height: 300px;
+}
+.sub-image{
+    position: relative;
+    top: -300px;
+    left: -115px;
+    width: 600px;
+    
+}
+.box__text{
+    position: relative;
+    top: -200px;
+    background-color: white;
+    width: 370px;
+    height: 200px;
+}

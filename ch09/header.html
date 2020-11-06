@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+            header{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                background-color: pink;
+                height: 100px;
+
+                color: white;
+                font-size: 40px;
+                font-weight: 900;
+            }
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            li{
+                width: 150px;
+                margin-left: 25px;
+                list-style-type: none;
+            }
+            nav{
+                
+                background-color: orange;
+            }
+            nav a{
+                display: inline-block;
+                padding: 20px 0;
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            nav a:hover{
+                background-color: rgb(209, 136, 0)
+            }
+            .dropdown{
+                position: absolute;
+                display: none;
+            }
+            .submenu{
+                position: relative;
+            }
+            .submenu > a:hover +.dropdown{
+                display: block;
+                                
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            COS
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li class="submenu">
+                    <a href="#">JAVASCRIPTS</a>
+                    <div class="dropdown">
+                        <div>Link 1</div>
+                        <div>Link 2</div>
+                        <div>Link 3</div>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+    </body>
+</html>

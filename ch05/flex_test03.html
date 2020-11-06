@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+           .background{
+               display: flex;
+               align-items: center;
+               flex-direction: column;
+               justify-content: space-evenly;
+               background-color: rgb(240, 239, 239);
+               width: 100%;
+               height: 100%;
+           }
+           .Mainbox{
+               display: flex;
+               align-items: center;
+               flex-direction: column;
+               justify-content: space-evenly;
+               border: 1px solid whitesmoke;
+               background-color: white;
+               width: 40%;
+               height: 60%;
+           }
+           .subbox{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               border: 1px solid whitesmoke;
+               background-color: white;
+               width: 40%;
+               height: 10%;
+           }
+           .text{
+               border: 1px solid grey;
+               width: 40%;
+               height: 5%;
+               background-color: white;
+           }
+           .buttonbox{
+               display: flex;
+               justify-content: space-around;
+               align-items: center;
+               
+               width: 40%;
+               height: 10%;
+               
+           }
+           .logo{
+               border: 1px solid white;
+               width: 70%;
+               height: 20%;
+           }
+           input{
+               width: 70%;
+               height: 10%;
+               font-size: xx-small;
+           }
+           .login{
+               width: 70%;
+               height: 8%;
+               font-size: xx-small;
+               border: 2px solid skyblue;
+               color: white;
+               background-color: skyblue;
+           }
+           .text01{
+               font-size: xx-small;
+               color: rgb(206, 204, 204);
+           }
+           .facebook{
+               font-weight: bold;
+               font-size: xx-small;
+               color: blue;
+           }
+           .pwtext{
+               font-size: xx-small;
+               color: blue;
+           }
+           .maketext{
+               font-size: xx-small;
+               color: grey;
+           }
+           .joinbutton{
+               
+               font-size: xx-small;
+               width: 30%;
+               height: 50%;
+               background-color: white;
+               border: 3px solid white;
+               color: skyblue;
+        
+           }
+           .downloadtext{
+               font-size: xx-small;
+           }
+           .app{
+               background-color:  rgb(240, 239, 239);
+               border: 1px solid  rgb(240, 239, 239);
+               width: 40%;
+               height: 80%;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="background">
+            <div class="Mainbox">
+                <div class="logo">
+                    <img  src="수업 공유 사진/insta.png" width="100%" height="100%"/>
+                </div>
+                <input type="text" name="username" placeholder="전화번호, 사용자 이름 또는 이메일"/>
+                <input type="password" name="password" placeholder="비밀번호"/>
+                <button class="login">로그인</button>
+                <a class="text01">------------ 또는 ------------</a>
+                <div><i class="material-icons">search</i><a class="facebook">Facebook으로 로그인</a></div>
+                <a class="pwtext">비밀번호를 잊으셨나요?</a>   
+            </div>
+            <div class="Subbox">
+                <a class="maketext">계정이 없으신가요?</a><button class="joinbutton">가입하기</button>
+            </div>
+            <div class="downloadtext">앱을 다운로드 하세요.</div>
+            <div class="buttonbox">
+                <div class="app">
+                    <img  src="수업 공유 사진/appstore.png" width="100%" height="100%"/>
+                </div>
+                <div class="app">
+                    <img  src="수업 공유 사진/playstore.png" width="100%" height="100%"/>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

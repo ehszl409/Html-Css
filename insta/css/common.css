@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* 버튼, 마진, 폰트사이즈 */
+
+body{
+    background-color: #FAFAFA;
+}
+
+.btn1{
+    margin: 10px 0;
+    background-color: #B2DFFC;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    border: 0px;
+    font-weight: 700;
+    width: 270px;
+}
+
+/* mt, mb */
+.mt10{
+    margin-top: 10px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mt30{
+    margin-top: 30px;
+}
+
+
+.mb10{
+    margin-bottom: 10px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+.a-link-facebook{
+    color: #385185;
+    font-weight: 700;
+    text-decoration: none;
+}
+.a-link-forget{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.a-link-join{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #0095F2;
+}
+.a-link-nav{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #02386A;
+    margin-left: 10px;
+}
