@@ -109,7 +109,7 @@ section{
 }
 /* 첫 번째 섹션 */
 main{
-    width: 1500px;
+    
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -178,9 +178,7 @@ main{
     font-size: 25px;
 }
 .ad-picture2{
-    width: 1500px;
     height: 600px;
-    
     margin-top: 20px;
 }
 
@@ -189,7 +187,6 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
-    width: 1500px;
     height: 830px;
     
 }
@@ -197,8 +194,6 @@ main{
 .home-item-picture{
     width: auto;
     height: 300px;
-    
-    
 }
 .xs-title{
     display: flex;

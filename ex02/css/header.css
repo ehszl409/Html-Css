@@ -1,17 +1,13 @@
 .shex{
     display: flex;
-    border: 1px solid red;
-    height: 130px;
+    height: 30%;
 }
 
 .shex .shex__menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
-    width: 130px;
-    
-
+    width: 20%;
     font-size: 20px;
     color: white;
     background-color: gray;
@@ -23,13 +19,9 @@
 .shex .shex__text{
     display: flex;
     align-items: center;
-    border: 1px solid red;
-
-    width: 80%;
-
+    width: 100%;
     font-size: 25px;
     color: gray;
-
     padding-left: 20px;
 }
 
